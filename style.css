@@ -1,187 +1,191 @@
+html {
+  scroll-behavior: smooth;
+}
 nav {
-    justify-content: center;
-    top: 0%;
-    height: 8vw;
-    background-color: white;
-    overflow: hidden;
-    display: flex;
-    width: 100%;
-    position: sticky;
+  justify-content: center;
+  top: 0%;
+  height: 8vw;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  position: sticky;
 }
-nav a{
-    margin-right: 5%;
-    padding: 1vw;
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.5vw;
-    text-decoration: none;
+nav a {
+  margin-right: 5%;
+  padding: 1vw;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5vw;
+  text-decoration: none;
 }
-nav a:hover{
-    color: red;
+nav a:hover {
+  color: red;
 }
 
-#Main{
-    background-color: rgb(233, 231, 221);
-    width: 100%;
+#Main {
+  background-color: rgb(233, 231, 221);
+  width: 100%;
 }
 
 #frontname {
-    background-color: rgb(237, 241, 241);
-    display: flex;
-    flex-wrap: wrap;
+  background-color: rgb(237, 241, 241);
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #column1 {
-    width: 100%;
-    padding: 5%;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 5%;
+  box-sizing: border-box;
 }
 
 #column1 img {
-    width: 100%; 
-    max-width: 200px; 
-    height:max-content; 
-    border-radius: 50%;
-    border: 5px solid white;
+  width: 100%;
+  max-width: 200px;
+  height: max-content;
+  border-radius: 50%;
+  border: 5px solid white;
 }
 
-#column2{
-    width: 100%;
+#column2 {
+  width: 100%;
 }
-#column2 h1{
-    font-size: 4vw;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color: teal;
-}
-
-#aboutme{
-    background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5%;
-    font-size: 2vw;
-    font-family: "Sofia", sans-serif;
-}
-#aboutme p{
-    text-align: center;
-    margin-top: 2vw;
-    margin-bottom: 3vw;
-    padding: 1vw;
+#column2 h1 {
+  font-size: 4vw;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: teal;
 }
 
-#aboutme1{
-    width: 100%;
-    padding: 5%;
-    box-sizing: border-box;
+#aboutme {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+  font-size: 2vw;
+  font-family: "Sofia", sans-serif;
 }
-#aboutme1 a{
-    text-decoration: none;
+#aboutme p {
+  text-align: center;
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+  padding: 1vw;
 }
-#aboutme2{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2vw;
+
+#aboutme1 {
+  width: 100%;
+  padding: 5%;
+  box-sizing: border-box;
+}
+#aboutme1 a {
+  text-decoration: none;
+}
+#aboutme2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2vw;
 }
 #aboutme2 h1 {
-    grid-column: 1 / -1;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2em;
+  grid-column: 1 / -1;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2em;
 }
 
 #aboutme2 span {
-    font-size: 2vw;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 20%;
-    background-color: #1e8365;
-    padding: 4vw;
-    text-align: center;
+  font-size: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20%;
+  background-color: #1e8365;
+  padding: 4vw;
+  text-align: center;
 }
 
-#services{
-    background-color: rgb(237, 241, 241);
+#services {
+  background-color: rgb(237, 241, 241);
 }
 
 table {
-    width: 80%;
-    margin: 0 auto;
-    border-collapse: collapse;
-    background-color:teal;
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: teal;
 }
 
 caption {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 20px;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
 }
 
-th, td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: left;
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
 }
 
 th {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 @media (max-width: 768px) {
-    table {
-        width: 100%;
-    }
+  table {
+    width: 100%;
+  }
 }
-#contactus{
-    text-align: center;
-    font-size: 2em;
+#contactus {
+  text-align: center;
+  font-size: 2em;
 }
 #contact form {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f2f2f2;
-    border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
 }
 
 #contact form label {
-    display: block;
-    margin-bottom: 10px;
+  display: block;
+  margin-bottom: 10px;
 }
 
 #contact form input[type="text"],
 #contact form input[type="number"],
 #contact form input[type="email"],
 #contact form select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
 #contact form input[type="radio"],
 #contact form input[type="checkbox"] {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 #contact form input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 #contact form input[type="submit"]:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
 
 @media (max-width: 768px) {
-    #contact form {
-        max-width: 100%;
-    }
+  #contact form {
+    max-width: 100%;
+  }
 }
